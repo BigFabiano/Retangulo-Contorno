@@ -30,17 +30,17 @@ namespace Retangulo_Contorno
                     colunaAtual += 1;
                     if (linhaAtual == 1 || linhaAtual == qtdLinhas)
                     {
-                        Console.Write("*");
+                        Console.Write("* ");
                     }
                     else
                     {
                         if (colunaAtual == 1 || colunaAtual == qtdColunas)
                         {
-                            Console.Write("*");
+                            Console.Write("* ");
                         }
                         else
                         {
-                            Console.Write(" ");
+                            Console.Write("  ");
                         }
                     }
 
